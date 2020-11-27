@@ -3,8 +3,8 @@
   <arg name="module_robot" />
   <arg name="gui" default="true" />
   <arg name="sim" default="true" />
-<!--  <param name="robot_description" textfile="$(find mr_description)/robots/manipulator5d.urdf" />-->
-  <param name="robot_description" command="$(find xacro)/xacro '$(find mr_description)/robots/manipulator5d.urdf.xacro'" />
+<param name="robot_description" textfile="$(find mr_description)/robots/manipulator5d.urdf" />
+<!--<param name="robot_description" command="$(find xacro)/xacro '$(find mr_description)/robots/manipulator5d.urdf.xacro'" />-->
 <!--  <param name="robot_description" command="$(find xacro)/xacro '$(find mr_description)/robots/manipulator6d.urdf.xacro'" />-->
 <!--  <rosparam>-->
 <!--    dependent_joints:-->
@@ -22,6 +22,7 @@
   <node name="module_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
     <param name="use_gui" value="$(arg gui)"/>
     <param name="publish_frequency" type="double" value="10.0" />
+    <rosparam param="source_list">["/joint_command"]</rosparam>
     <param name="gui_caption" value="BIRL"/>
   </node>
 

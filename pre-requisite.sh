@@ -21,7 +21,7 @@ git checkout indigo-devel
 cd;echo "source ~/ws/devel/setup.bash" >> ./bashrc
 
 
-cd;mkdir 3rd_party_lib;cd 3rd_party_lib;git clone https://github.com/beltoforion/muparser.git;cd muparser/;./configure;make;sudo make install;
+cd;mkdir 3rd_party_lib;cd 3rd_party_lib;git clone https://github.com/beltoforion/muparser.git;cd muparser/;./configure;cmake CMakeLists.txt;make clean all;
 
 #32 bit ECI:
 #63 bit ECI:

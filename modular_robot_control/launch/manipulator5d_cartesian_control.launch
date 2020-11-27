@@ -6,8 +6,9 @@
   <arg name="sim" default="true"/>
 
   <include file="$(find mr_description)/launch/manipulator5d_display.launch" >
-    <arg name="sim" value="false"/>
+    <arg name="sim" value="True"/>
   </include>
+
   
   <node name="set_rosparam_joint_names" pkg="modular_robot_control" type="rosparam_set_joint_names.py"/>
 
