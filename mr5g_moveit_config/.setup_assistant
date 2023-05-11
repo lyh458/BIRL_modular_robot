@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mr5g_description
+    relative_path: urdf/mr5g.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/mr5g.srdf
+  CONFIG:
+    author_name: Yihui Li
+    author_email: liyihui.ing@gmail.com
+    generated_timestamp: 1670829384

@@ -1,0 +1,22 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/lyh/MyFiles/Codes/robot_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/catkin_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/robot_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/hri_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/gripper_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/tool_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/im_ws/devel/lib/python3/dist-packages",
+    "/opt/ros/noetic/lib/python3/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/lyh/MyFiles/Codes/robot_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/catkin_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/robot_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/hri_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/gripper_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/tool_ws/devel/lib/python3/dist-packages",
+    "/home/lyh/Codes/tmg_ws/devel/lib/python3/dist-packages",
+    "/opt/ros/noetic/lib/python3/dist-packages"
+  ]
+}
