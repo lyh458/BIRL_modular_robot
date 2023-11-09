@@ -627,7 +627,7 @@
       <inertia ixx="0.00162292630009161" ixy="5.16386324388829E-07" ixz="-5.38220794323839E-05" iyy="0.00161884419291852" iyz="-1.03737233460529E-06" izz="0.000486359497324985"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 3.1416" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://mr_description/meshes/t_link.STL"/>
       </geometry>
@@ -645,7 +645,7 @@
   </link>
 
   <joint name="T5_Joint" type="revolute">
-    <origin rpy="0 -1.5708 3.1416" xyz="0.0123 0 0.131"/>
+    <origin rpy="0 -1.5708 0" xyz="-0.0123 0 0.131"/>
     <parent link="T5_link"/>
     <child link="T5_Offset_Link"/>
     <axis xyz="0 0 1"/>
@@ -787,4 +787,11 @@
       <inertia ixx="4.06348713317454E-05" ixy="4.84294028883443E-09" ixz="-9.16297919179846E-06" iyy="4.29642140065595E-05" iyz="-7.56625401696782E-08" izz="9.72744043633773E-06"/>
     </inertial>
   </link>
+
+  <joint name="tcp_fixed_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.16"/>
+    <parent link="g6_palm_link"/>
+    <child link="tcp"/>
+  </joint>
+  <link name="tcp"/>
 </robot>

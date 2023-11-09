@@ -723,7 +723,7 @@
       <inertia ixx="0.00162292630009161" ixy="5.16386324388829E-07" ixz="-5.38220794323839E-05" iyy="0.00161884419291852" iyz="-1.03737233460529E-06" izz="0.000486359497324985"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 3.1416" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://mr_description/meshes/t_link.STL"/>
       </geometry>
@@ -765,7 +765,7 @@
     </inertial>
   </link>
   <joint name="t6_Joint" type="revolute">
-    <origin rpy="0 1.5708 0" xyz="0.0128 0 0.131"/>
+    <origin rpy="0 1.5708 3.1416" xyz="-0.0128 0 0.131"/>
     <!-- <origin rpy="0 0 3.1416" xyz="0 0 0.131"/> -->
     <parent link="t6_link"/>
     <child link="t6_link2"/>

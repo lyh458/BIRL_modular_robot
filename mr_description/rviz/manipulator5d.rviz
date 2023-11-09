@@ -176,6 +176,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        tcp:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Name: module_robot
       Robot Description: robot_description
       TF Prefix: ""
@@ -196,13 +200,13 @@ Visualization Manager:
         I1_Lr_Link_0:
           Value: false
         I1_OutLink_2:
-          Value: true
+          Value: false
         I4_Offset_Link:
-          Value: true
+          Value: false
         I4_link:
           Value: false
         T2_InLink_1:
-          Value: true
+          Value: false
         T2_Link:
           Value: false
         T2_Lr_Link_3:
@@ -220,13 +224,13 @@ Visualization Manager:
         T3_Lr_Link_0:
           Value: false
         T3_OutLink_2:
-          Value: true
+          Value: false
         T5_Offset_Link:
           Value: true
         T5_link:
-          Value: false
-        base_link:
           Value: true
+        base_link:
+          Value: false
         cl_100_85_connect_link:
           Value: false
         g6_finger_link:
@@ -234,6 +238,8 @@ Visualization Manager:
         g6_finger_link1:
           Value: false
         g6_palm_link:
+          Value: false
+        tcp:
           Value: false
       Marker Alpha: 1
       Marker Scale: 1
@@ -266,6 +272,8 @@ Visualization Manager:
                                                   g6_finger_link:
                                                     {}
                                                   g6_finger_link1:
+                                                    {}
+                                                  tcp:
                                                     {}
       Update Interval: 0
       Value: true
@@ -306,7 +314,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.8344602584838867
+      Distance: 1.9387825727462769
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -322,9 +330,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.0698002278804779
+      Pitch: 0.13980033993721008
       Target Frame: <Fixed Frame>
-      Yaw: 6.2810187339782715
+      Yaw: 0.09283251315355301
     Saved: ~
 Window Geometry:
   Displays:

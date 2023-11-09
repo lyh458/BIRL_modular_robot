@@ -3,8 +3,8 @@
   <arg name="use_rviz" default="true" doc="Choose whether or not to use rviz."/>
   <arg name="use_gui" default="true" doc="Choose whether or not to use gui."/>
 
-  <!-- <param name="robot_description" textfile="$(find mr_description)/robots/test.urdf" /> -->
-  <param name="robot_description" textfile="$(find mr_description)/robots/manipulator6d.urdf" />
+  <param name="robot_description" textfile="$(find mr_description)/robots/test.urdf" />
+  <!-- <param name="robot_description" textfile="$(find mr_description)/robots/manipulator6d.urdf" /> -->
   <!-- <param name="robot_description" textfile="$(find mr_description)/robots/manipulator5d.urdf" /> -->
 
   <!-- bring up robot description, joint and robot state publishers (also can start rviz) -->

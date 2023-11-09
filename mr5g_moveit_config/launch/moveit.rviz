@@ -6,6 +6,9 @@ Panels:
       Expanded:
         - /MotionPlanning1
         - /MotionPlanning1/Scene Robot1
+        - /MotionPlanning1/Scene Robot1/Links1
+        - /MotionPlanning1/Scene Robot1/Links1/tcp_link1
+        - /MotionPlanning1/Scene Robot1/Links1/tcp_link1/Orientation1
         - /TF1/Frames1
       Splitter Ratio: 0.5
     Tree Height: 1041
@@ -231,6 +234,8 @@ Visualization Manager:
       Velocity_Scaling_Factor: 1
     - Class: rviz/TF
       Enabled: false
+      Filter (blacklist): ""
+      Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
         All Enabled: false
@@ -249,9 +254,7 @@ Visualization Manager:
       Marker Topic: /mesh_visual
       Name: MarkerArray
       Namespaces:
-        mesh_link: true
-        mesh_node: true
-        mesh_nonlink: true
+        {}
       Queue Size: 100
       Value: true
   Enabled: true
@@ -286,9 +289,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.11500082910060883
+      Pitch: 0.4150007367134094
       Target Frame: world
-      Yaw: 5.959947109222412
+      Yaw: 6.279954433441162
     Saved: ~
 Window Geometry:
   Displays:

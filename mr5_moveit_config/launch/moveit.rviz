@@ -4,11 +4,13 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
+        - /Global Options1
         - /MotionPlanning1
         - /MotionPlanning1/Scene Robot1
+        - /TF1
         - /TF1/Frames1
       Splitter Ratio: 0.5
-    Tree Height: 920
+    Tree Height: 903
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -71,7 +73,123 @@ Visualization Manager:
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
+          I1_InLink_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I1_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I1_Lr_Link_0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I1_OutLink_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I4_Offset_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           Link Tree Style: Links in Alphabetic Order
+          T2_InLink_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T2_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          T2_Lr_Link_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          T2_Offset_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T2_Offset_Lr_Link_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T2_OutLink_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_InLink_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_Lr_Link_0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_OutLink_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T5_Offset_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T5_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          cl_100_85_connect_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          g6_finger_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          g6_finger_link1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          g6_palm_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          tcp:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
         Loop Animation: true
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
@@ -117,14 +235,132 @@ Visualization Manager:
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
+          I1_InLink_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I1_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I1_Lr_Link_0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I1_OutLink_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I4_Offset_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          I4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           Link Tree Style: Links in Alphabetic Order
-        Robot Alpha: 1
+          T2_InLink_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T2_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          T2_Lr_Link_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          T2_Offset_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T2_Offset_Lr_Link_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T2_OutLink_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_InLink_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_Lr_Link_0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T3_OutLink_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T5_Offset_Link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          T5_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          cl_100_85_connect_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          g6_finger_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          g6_finger_link1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          g6_palm_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          tcp:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Robot Alpha: 0.20000000298023224
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
       Velocity_Scaling_Factor: 1
     - Class: rviz/TF
       Enabled: true
+      Filter (blacklist): ""
+      Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
         All Enabled: false
@@ -136,8 +372,12 @@ Visualization Manager:
           Value: false
         I1_OutLink_2:
           Value: true
-        T2_InLink_1:
+        I4_Offset_Link:
+          Value: true
+        I4_link:
           Value: false
+        T2_InLink_1:
+          Value: true
         T2_Link:
           Value: false
         T2_Lr_Link_3:
@@ -147,7 +387,7 @@ Visualization Manager:
         T2_Offset_Lr_Link_3:
           Value: false
         T2_OutLink_2:
-          Value: true
+          Value: false
         T3_InLink_1:
           Value: false
         T3_Link:
@@ -156,10 +396,12 @@ Visualization Manager:
           Value: false
         T3_OutLink_2:
           Value: true
+        T5_Offset_Link:
+          Value: true
+        T5_link:
+          Value: false
         base_link:
           Value: true
-        cl_100_85_connect_Link:
-          Value: false
         cl_100_85_connect_link:
           Value: false
         g6_finger_link:
@@ -167,18 +409,6 @@ Visualization Manager:
         g6_finger_link1:
           Value: false
         g6_palm_link:
-          Value: false
-        i4_Link:
-          Value: true
-        i4_Offset_Link:
-          Value: false
-        i4_link:
-          Value: false
-        t5_Link:
-          Value: false
-        t5_Offset_Link:
-          Value: true
-        t5_link:
           Value: false
         tcp:
           Value: true
@@ -202,7 +432,23 @@ Visualization Manager:
                         T2_OutLink_2:
                           T2_InLink_1:
                             T2_Offset_Link:
-                              {}
+                              T2_Link:
+                                T3_Lr_Link_0:
+                                  T3_InLink_1:
+                                    T3_OutLink_2:
+                                      T3_Link:
+                                        cl_100_85_connect_link:
+                                          I4_link:
+                                            I4_Offset_Link:
+                                              T5_link:
+                                                T5_Offset_Link:
+                                                  g6_palm_link:
+                                                    g6_finger_link:
+                                                      {}
+                                                    g6_finger_link1:
+                                                      {}
+                                                    tcp:
+                                                      {}
       Update Interval: 0
       Value: true
     - Class: rviz/MarkerArray
@@ -261,7 +507,7 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000003a300000754fc0200000007fb000000100044006900730070006c006100790073010000006e000004900000018200fffffffb0000000800480065006c00700000000342000000bb000000d400fffffffb0000000a00560069006500770073000000010c000000a40000013200fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000002600000026fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067010000050a000002b8000002b800ffffff00000b510000075400000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000003a300000754fc0200000007fb000000100044006900730070006c006100790073010000006e0000047f0000018200fffffffb0000000800480065006c00700000000342000000bb000000d400fffffffb0000000a00560069006500770073000000010c000000a40000013200fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000007a00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006701000004f9000002c9000002b800ffffff00000b510000075400000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
   Width: 3840

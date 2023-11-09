@@ -54,7 +54,8 @@
     </collision>
   </link>
   <joint name="mr5g_joint_1" type="revolute">
-    <origin xyz="0 0 0.15023" rpy="0 0 0" />
+    <!-- <origin xyz="0 0 0.15023" rpy="0 0 0" /> -->
+    <origin xyz="0 0 0.15023" rpy="0 0 -0.2663" />
     <parent link="base_link" />
     <child link="mr5g_link_1" />
     <axis xyz="0 0 -1" />
@@ -83,8 +84,8 @@
     </collision>
   </link>
   <joint name="mr5g_joint_2" type="revolute">
-    <!-- <origin xyz="0 0 0.2002" rpy="-1.5708 0 0.26637" /> -->
-    <origin xyz="0 0 0.2002" rpy="-1.5708 0 0" />
+    <origin xyz="0 0 0.2002" rpy="-1.5708 0 0.26637" />
+    <!-- <origin xyz="0 0 0.2002" rpy="-1.5708 0 0" /> -->
     <parent link="mr5g_link_1" />
     <child link="mr5g_link_2" />
     <axis xyz="0 0 -1" />
@@ -142,7 +143,8 @@
     </collision>
   </link>
   <joint name="mr5g_joint_4" type="revolute">
-    <origin xyz="0 -0.25172 0.0012681" rpy="1.5708 0 0" />
+    <origin xyz="0 -0.25172 0.0012681" rpy="1.5708 -0.18001 0" />
+    <!-- <origin xyz="0 -0.25172 0.0012681" rpy="1.5708 0 0" /> -->
     <parent link="mr5g_link_3" />
     <child link="mr5g_link_4" />
     <axis xyz="0 0 1" />
@@ -171,8 +173,8 @@
     </collision>
   </link>
   <joint name="mr5g_joint_5" type="revolute">
-    <!-- <origin xyz="0 0 0.1641" rpy="-1.5708 0 -0.18001" /> -->
-    <origin xyz="0 0 0.1641" rpy="-1.5708 0 0" />
+    <origin xyz="0 0 0.1641" rpy="-1.5708 0 -0.18001" />
+    <!-- <origin xyz="0 0 0.1641" rpy="-1.5708 0 0" /> -->
     <parent link="mr5g_link_4" />
     <child link="mr5g_link_5" />
     <axis xyz="0 0 -1" />
